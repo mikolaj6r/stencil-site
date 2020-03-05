@@ -40,7 +40,7 @@ Component properties and attributes are defined by annotating an instance variab
 @Prop() prop: number;
 ```
 
-Stencil also **uses the type information** in order to generate the Web Component types and automatically cast the values to the specified type at runtime**:
+Stencil also **uses the type information** in order to generate the Web Component types and automatically cast the values to the specified type **at runtime**:
 
 ```tsx
 @Prop() str1: string; // string attribute
